@@ -1,4 +1,5 @@
 # nodes are in [k8s-cluster] /etc/ansible/hosts
+# Install docker in nodes
 ---
   - hosts: k8s-cluster
     user: centos
