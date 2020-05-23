@@ -1,5 +1,6 @@
 # nodes are in [k8s-cluster] /etc/ansible/hosts
 # Install docker in nodes
+# Config ssh connection before run command: ansible-playbook install-docker.yaml
 ---
   - hosts: k8s-cluster
     user: centos
