@@ -1,0 +1,6 @@
+---
+  - hosts: k8s-cluster
+    user: centos
+    tasks:
+      - name: Install Docker in each node using rancher script
+        shell: 'curl https://releases.rancher.com/install-docker/18.09.sh | sh'
